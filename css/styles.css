@@ -11629,3 +11629,9 @@ header.masthead .masthead-brand{
 @media (max-width: 576px) {
   .team-member img { width: 180px; height: 180px; }
 }
+header.masthead{
+  background-image: url("../assets/img/hero.jpg") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
