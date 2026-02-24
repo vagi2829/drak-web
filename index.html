@@ -314,49 +314,59 @@
             </div>
         </section>
         <!-- Team-->
-        <section class="page-section bg-light" id="team">
-            <div class="container">
-                <div class="text-center" data-aos="fade-up">
-                    <h2 class="section-heading text-uppercase">Lidé ve firmě</h2>
-                    <h3 class="section-subheading text-muted">Klíčové osoby společnosti DRAK s.r.o.</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="team-member" data-aos="fade-up" data-aos-delay="0">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
-                            <h4>Petr Quast</h4>
-                            <p class="text-muted">Jednatel</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="team-member" data-aos="fade-up" data-aos-delay="120">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
-                            <h4>Jaroslav Černý</h4>
-                            <p class="text-muted">obchodní ředitel</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="team-member" data-aos="fade-up" data-aos-delay="240">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
-                            <h4>Bc. Alena Quast</h4>
-                            <p class="text-muted">Realitní a hypoteční makléřka</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
+       <section class="page-section bg-light" id="team">
+    <div class="container">
+        <div class="text-center" data-aos="fade-up">
+            <h2 class="section-heading text-uppercase">Lidé ve firmě</h2>
+            <h3 class="section-subheading text-muted">Klíčové osoby společnosti DRAK s.r.o.</h3>
+        </div>
+
+        <style>
+            .team-member img {
+                width: 260px;
+                height: 260px;
+                border-radius: 50%;
+                object-fit: cover;
+                display: block;
+                margin: 0 auto 20px auto;
+                box-shadow: 0 18px 40px rgba(0,0,0,0.15);
+                transition: transform 0.3s ease;
+            }
+            .team-member img:hover {
+                transform: scale(1.05);
+            }
+            .team-member img.petr { object-position: center 20%; }
+            .team-member img.jaroslav { object-position: center 18%; }
+            .team-member img.alena { object-position: center 25%; }
+        </style>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="team-member" data-aos="fade-up" data-aos-delay="0">
+                    <img class="petr" src="assets/img/team/1.jpg" alt="Petr Quast">
+                    <h4>Petr Quast</h4>
+                    <p class="text-muted">Jednatel</p>
                 </div>
             </div>
-        </section>
+
+            <div class="col-lg-4">
+                <div class="team-member" data-aos="fade-up" data-aos-delay="120">
+                    <img class="jaroslav" src="assets/img/team/2.jpg" alt="Jaroslav Černý">
+                    <h4>Jaroslav Černý</h4>
+                    <p class="text-muted">Obchodní ředitel</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="team-member" data-aos="fade-up" data-aos-delay="240">
+                    <img class="alena" src="assets/img/team/3.jpg" alt="Bc. Alena Quast">
+                    <h4>Bc. Alena Quast</h4>
+                    <p class="text-muted">Realitní a hypoteční makléřka</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
         <!-- Klients-->
         <div class="py-5">
             <div class="container">
