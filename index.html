@@ -56,15 +56,31 @@ section.page-section.bg-light{
 .section-heading{ color: var(--drak-text) !important; }
 .text-muted, .section-subheading{ color: var(--drak-muted) !important; }
 
-/* ===== NAVBAR ===== */
-#mainNav{
-  background: rgba(20,20,23,0.85) !important;
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--drak-border);
+/* ===== NAVBAR SVĚTLEJŠÍ ===== */
+
+#mainNav {
+    background: rgba(40,40,45,0.85) !important;
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255,255,255,0.08);
 }
-#mainNav .nav-link{ color: var(--drak-muted) !important; }
-#mainNav .nav-link:hover{ color: var(--drak-text) !important; }
-#mainNav .nav-link.active{ color: var(--drak-red) !important; }
+
+#mainNav .navbar-brand-text {
+    color: #ffffff !important;
+}
+
+#mainNav .nav-link {
+    color: #e2e2e2 !important;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+#mainNav .nav-link:hover {
+    color: #ffffff !important;
+}
+
+#mainNav .nav-link.active {
+    color: #b71c1c !important;
+}
 
 /* ===== HERO OVERLAY ===== */
 header.masthead::before{
@@ -124,28 +140,7 @@ footer.footer{
 }
 footer.footer a{ color: var(--drak-muted) !important; }
 footer.footer a:hover{ color: var(--drak-text) !important; }
-/* ===== STAVBY IKONY ===== */
 
-.fa-stack .fa-circle {
-    color: #2e2f34 !important; /* světlejší než pozadí */
-}
-
-.fa-stack-1x {
-    color: #ffffff !important;
-}
-
-#services .fa-stack {
-    transition: all 0.3s ease;
-}
-
-#services .fa-stack:hover .fa-circle {
-    color: #b71c1c !important; /* červený efekt při hover */
-    box-shadow: 0 0 25px rgba(183,28,28,0.6);
-}
-
-#services h4 {
-    color: #ffffff !important;
-}
 </style>
         
         <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
