@@ -16,6 +16,8 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
             <!-- AOS (Animate On Scroll) -->
+        
+        
         <style>
 :root{
   --drak-bg: #1b1c1f;
@@ -122,6 +124,28 @@ footer.footer{
 }
 footer.footer a{ color: var(--drak-muted) !important; }
 footer.footer a:hover{ color: var(--drak-text) !important; }
+/* ===== STAVBY IKONY ===== */
+
+.fa-stack .fa-circle {
+    color: #2e2f34 !important; /* světlejší než pozadí */
+}
+
+.fa-stack-1x {
+    color: #ffffff !important;
+}
+
+#services .fa-stack {
+    transition: all 0.3s ease;
+}
+
+#services .fa-stack:hover .fa-circle {
+    color: #b71c1c !important; /* červený efekt při hover */
+    box-shadow: 0 0 25px rgba(183,28,28,0.6);
+}
+
+#services h4 {
+    color: #ffffff !important;
+}
 </style>
         
         <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
